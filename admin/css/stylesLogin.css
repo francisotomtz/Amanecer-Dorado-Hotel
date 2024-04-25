@@ -1,0 +1,20 @@
+body {
+    background-image: url('../img/principal.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #B31312;
+    color: #fff;
+    text-align: center;
+}

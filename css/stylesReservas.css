@@ -1,0 +1,95 @@
+body {
+    background-color: #2D9596;
+    height: 100vh;
+    width: 100%;
+}
+
+#aux {
+    height: 20vh;
+    width: 100%;
+}
+
+.bnConf {
+    font-weight: 500;
+    margin: 0 25%;
+    margin-bottom: 4rem;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.aconf:hover {
+    border-bottom-style: solid;
+}
+
+#formulario-container {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.form-section {
+    display: none;
+}
+
+.form-section.active {
+    display: block;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+#habitacion-form {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.habitacion-card {
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.habitacion-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#habitacion-table {
+    margin-top: 20px;
+}
+
+#habitacion-table th,
+#habitacion-table td {
+    text-align: center;
+    padding: 10px;
+}
+
+.btn-eliminar {
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.seleccionada {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}

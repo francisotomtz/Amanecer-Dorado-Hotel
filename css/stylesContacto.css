@@ -1,0 +1,41 @@
+body {
+    background-color: #2D9596;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+#successMessage {
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.no-resize {
+    resize: none;
+}
+
+.bnConf {
+    font-weight: 500;
+    margin: 0 25%;
+    margin-bottom: 4rem;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.aconf:hover {
+    border-bottom-style: solid;
+}
+
+#aux {
+    height: 20vh;
+    width: 100%;
+}

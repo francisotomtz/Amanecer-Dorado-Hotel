@@ -1,0 +1,207 @@
+#seccion_principal {
+    background-image: url('../img/principal.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aconf:hover {
+    border-bottom-style: solid;
+}
+
+#seccion_carrusel {
+    height: 100vh;
+    width: 100%;
+}
+
+#seccion_ofertas {
+    background-color: #2B3499;
+    height: 100vh;
+    width: 100%;
+}
+
+#seccion_opiniones {
+    margin-top: 40px;
+    height: 60vh;
+    width: 100%;
+}
+
+#seccion_sobre {
+    color: white;
+    background-color: #2B3499;
+    height: 100vh;
+    width: 100%;
+}
+
+#seccion_pie {
+    margin-top: 30px;
+    height: 10vh;
+    width: 100%;
+}
+
+.cardconf {
+    margin: auto 50px;
+}
+
+.carruselconf {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.bnConf {
+    font-weight: 500;
+    margin: 0 25%;
+    position: absolute;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#bienvenidaP {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+#bienvenidaS {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding-bottom: 50px;
+}
+
+.be-rg-white {
+    border-radius: 0 10px 10px 0;
+    /* Añade otros estilos según sea necesario */
+}
+
+.be-mid-white {
+    color: black;
+}
+
+.be-izq-white {
+    border-radius: 10px 0 0 10px;
+}
+
+.btn-st {
+    padding: 10px 100px 10px 100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+}
+
+#carrusel-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#carrusel-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#carrusel-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#carrusel-text {
+    margin-top: 20px;
+}
+
+#ofertas-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#ofertas-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.card {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.card-text {
+    flex: 1;
+}
+
+#testimonios-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#testimonios-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.testimonial-card {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+#sobre-nosotros-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#sobre-nosotros-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#sobre-nosotros-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#texto-container {
+    flex: 1;
+    text-align: center;
+    padding: 40px;
+}
+
+.fa-brands {
+    margin-right: 10px;
+}
+
+#imagen-container {
+    flex: 1;
+    overflow: hidden;
+}
+
+#imagen-container iframe {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#imagen-container img {
+    width: 100%;
+    height: auto;
+}

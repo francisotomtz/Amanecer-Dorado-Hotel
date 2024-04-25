@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login | Amanecer Dorado Hotel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/d7d7972f93.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/stylesLogin.css">
+    <link rel="shortcut icon" href="img/icono.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="text-center mt-3">Panel de administración</h3>
+                        <h4 class="text-center"><i class="fa-solid fa-mountain-sun"></i> Amanecer Dorado Hotel</h4>
+                        <br>
+                        <form id="loginForm" action="php-bd/login.php" method="post">
+                            <div class="form-group">
+                                <label for="username">Ingresa tu usuario:</label>
+                                <input type="text" class="form-control" id="username" name="username" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Ingresa tu contraseña:</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                            </div>
+                            <button type="submit" class="btn btn-info btn-block">Acceder</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/funcionesLogin.js"></script>
+</body>
+
+</html>
