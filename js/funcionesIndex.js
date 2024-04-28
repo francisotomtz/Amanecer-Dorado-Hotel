@@ -60,5 +60,6 @@ function agendar() {
     localStorage.setItem('fechaSalida', fechaSalida);
     localStorage.setItem('aux', aux);
 
-    window.location.href = '../reservas.php';
+    window.location.href = 'http://localhost/Amanecer-Dorado-Hotel/reservas.php';
+
 }
